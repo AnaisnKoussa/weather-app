@@ -1,0 +1,210 @@
+main {
+    border: solid 1px darkgray;
+    box-shadow: 3px 3px 15px 3px lightgray;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 900px;
+}
+
+#searchbar {
+    min-width: 180px;
+    max-width: 270px;
+    display: flex;
+    justify-content: space-between;
+    border : solid 1px lightgray;
+    border-radius: 30px;
+    box-shadow: 3px 3px 10px lightgray;
+    background-color: white;
+}
+
+
+#City {
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    padding: 10px;
+    width: 75%;
+    border: none;
+    text-indent: 5px;
+    font-size: 18px;
+}
+
+.search {
+    background-image: url(/icons/loupe.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 20%;
+    border: none;
+    background-position: center;
+    background-color: white;
+    cursor: pointer;
+}
+
+.search:hover {
+    background-color: lightgray;
+}
+
+.reset {
+    background-image: url(/icons/x-lg.svg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 20%;
+    border: none;
+    background-position: center;
+    background-color: white;
+    cursor: pointer;
+}
+
+.reset:hover {
+    background-color: lightgray;
+}
+
+#dayOfTheWeek {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#dayOfTheWeek > img {
+    width: 200px;
+    height: 200px;
+}
+
+div > h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: black;
+}
+
+div > h2 {
+    font-size: 20px;
+    margin: 0;
+    color: black;
+    font-weight: 600;
+}
+
+div > h2:first-letter {
+    text-transform: capitalize;
+}
+
+div > h3 {
+    font-size: 15px;
+    color : black;
+    font-weight: 100;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0 0 70px 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+    min-width: 20%;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: rgb(231, 243, 255);
+    border-radius: 15px;
+}
+ 
+li > img {
+    height: 30px;
+    width: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+li > h2 {
+    margin: 0 0 10px 0;
+    font-size: 15px;
+    color : black;
+    font-weight: 400;
+}
+
+li > h3 {
+    margin: 0;
+    font-size: 15px;
+    color : darkgray;
+    font-weight: 400;
+}
+
+.active {
+    border-radius: 50%;
+    background-color: rgb(231, 243, 255);
+}
+
+@media (max-width: 480px) {
+    #searchbar {
+        margin: 0 auto;
+    }
+
+    #City {
+        width: 188px;
+    }
+
+    #dayOfTheWeek {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #dayOfTheWeek > img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    div {
+       text-align: center;
+       margin-bottom: 30px;
+    }
+
+    div > h1 {
+        font-size: 30px;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    li > img {
+        height: 60px;
+        width: 60px;
+    }
+    
+    li > h2 {
+        font-size: 30px;
+    }
+    
+    li > h3 {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 780px) {
+    #dayOfTheWeek {
+        margin: 30px 0;
+        gap: 30px;
+    }
+}
+
+
+
+
+
+
