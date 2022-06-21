@@ -62,31 +62,31 @@ function iconDayDisplay(n) {
 
     switch (iD) {
         case "01d" :
-            iconDay = "/icons/sun.png";
+            iconDay = "./icons/sun.png";
             break;
         case "02d" :
-            iconDay = "/icons/cloudy.png";
+            iconDay = "./icons/cloudy.png";
             break;
         case "03d" :
-            iconDay = "/icons/clouds.png";
+            iconDay = "./icons/clouds.png";
             break;
         case "04d" :
-            iconDay = "/icons/brokenclouds.png";
+            iconDay = "./icons/brokenclouds.png";
             break;
         case "09d" :
-            iconDay = "/icons/rainy-day.png";
+            iconDay = "./icons/rainy-day.png";
             break;
         case "10d" :
-            iconDay = "/icons/rain.png";
+            iconDay = "./icons/rain.png";
             break;
         case "11d" :
-            iconDay = "/icons/thunder.png";
+            iconDay = "./icons/thunder.png";
             break;
         case "13d" :
-            iconDay = "/icons/snowflake.png";
+            iconDay = "./icons/snowflake.png";
             break;
         case "50d" :
-            iconDay = "/icons/haze.png";
+            iconDay = "./icons/haze.png";
             break;
     }
 
@@ -97,31 +97,31 @@ function iconWeekDisplay (n) {
     let iW = (data.list[n].weather[0].icon)
     switch (iW) {
         case "01d" :
-            iconWeek = "/icons/soleil.png";
+            iconWeek = "./icons/soleil.png";
             break;
         case "02d" :
-            iconWeek = "/icons/soleil.png";
+            iconWeek = "./icons/soleil.png";
             break;
         case "03d" :
-            iconWeek = "/icons/nuage.png";
+            iconWeek = "./icons/nuage.png";
             break;
         case "04d" :
-            iconWeek = "/icons/nuage.png";
+            iconWeek = "./icons/nuage.png";
             break;
         case "09d" :
-            iconWeek = "/icons/slight-rain.png";
+            iconWeek = "./icons/slight-rain.png";
             break;
         case "10d" :
-            iconWeek = "/icons/slight-rain.png";
+            iconWeek = "./icons/slight-rain.png";
             break;
         case "11d" :
-            iconWeek = "/icons/flash.png";
+            iconWeek = "./icons/flash.png";
             break;
         case "13d" :
-            iconWeek = "/icons/snowflake.png";
+            iconWeek = "./icons/snowflake.png";
             break;
         case "50d" :
-            iconWeek = "/icons/haze.png";
+            iconWeek = "./icons/haze.png";
             break;
     }
     return iconWeek

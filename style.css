@@ -32,7 +32,7 @@ main {
 }
 
 .search {
-    background-image: url(/icons/loupe.png);
+    background-image: url("./icons/loupe.png");
     background-repeat: no-repeat;
     background-size: 40%;
     border-bottom-right-radius: 30px;
@@ -49,7 +49,7 @@ main {
 }
 
 .reset {
-    background-image: url(/icons/x-lg.svg);
+    background-image: url("./icons/x-lg.svg");
     background-repeat: no-repeat;
     background-size: 40%;
     border-bottom-right-radius: 30px;
